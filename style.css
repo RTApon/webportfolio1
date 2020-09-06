@@ -1,8 +1,8 @@
 h1{  
     font-size: 50px;
 }
-
 body{
+    margin: 0%;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .name-highlight{
@@ -16,4 +16,46 @@ body{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height:500px;
+    padding-bottom: 100px;
+}
+.link-button{
+text-decoration: none;
+background-image: linear-gradient(45deg,lightsalmon,tomato);
+padding:  10px 20px; 
+border-radius: 10px;
+color: white;
+font-weight: 500;
+}
+.under-banner{
+background-image: url("images/dream-bg.png");
+background-repeat: no-repeat;
+background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40% grey;
+    border-radius: 5px;
+    height: 60%;
+}
+.experience{
+background-image: url('images/exp-bg.png');
+background-repeat: no-repeat;
+background-position: left;
+}
+#full-stack{
+border-left: 7px solid springgreen;
+background-image:linear-gradient(45deg,orange,red);
+border-image-slice: 1;
+}
+#stack{
+    border-left: 7px solid springgreen;
+    background-image:linear-gradient(45deg,orange,red);
+    border-image-slice: 1;
+
 }
